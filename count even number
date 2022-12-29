@@ -1,0 +1,9 @@
+def countEvens(l):
+    count=0
+    for num in l:
+        if num%2==0:
+            count=count+1
+            return count
+n=int(input())
+lst=list(map(int,input().split()))
+print(countEvens(lst))
